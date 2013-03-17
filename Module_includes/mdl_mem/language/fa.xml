@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: en.xml 586 2012-06-16 17:50:46Z namiltd $ -->
+<!--
+phpSysInfo language file Language: English Created by: Audun Larsen
+-->
+<tns:translation language="persian" charset="utf-8"
+ xmlns:tns="http://phpsysinfo.sourceforge.net/translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://phpsysinfo.sourceforge.net/translation translation.xsd">
+  <expression id="001" name="title">
+    <exp>اطلاعات سیستم</exp>
+  </expression>
+  <expression id="002" name="vitals">
+    <exp>اطلاعات سیستم</exp>
+  </expression>
+  <expression id="003" name="hostname">
+    <exp>نام هاست</exp>
+  </expression>
+  <expression id="004" name="ip">
+    <exp>آی پی شنونده</exp>
+  </expression>
+  <expression id="005" name="kversion">
+    <exp>ورژن هسته</exp>
+  </expression>
+  <expression id="006" name="dversion">
+    <exp>نام نسخه</exp>
+  </expression>
+  <expression id="007" name="uptime">
+    <exp>زمان روشن بودن</exp>
+  </expression>
+  <expression id="008" name="users">
+    <exp>کاربر جاری</exp>
+  </expression>
+  <expression id="009" name="loadavg">
+    <exp>میانگین بارگزاری</exp>
+  </expression>
+  <expression id="010" name="hardware">
+    <exp>اطلاعات سخت افزاری</exp>
+  </expression>
+  <expression id="011" name="numcpu">
+    <exp>پردازشگر ها</exp>
+  </expression>
+  <expression id="012" name="cpumodel">
+    <exp>مدل</exp>
+  </expression>
+  <expression id="013" name="cpuspeed">
+    <exp>سرعت سی پی یو</exp>
+  </expression>
+  <expression id="014" name="busspeed">
+    <exp>سرعت باس</exp>
+  </expression>
+  <expression id="015" name="cache">
+    <exp>حجم کش</exp>
+  </expression>
+  <expression id="016" name="bogomips">
+    <exp>System Bogomips</exp>
+  </expression>
+  <expression id="017" name="pci">
+    <exp>دستگاه های پی سی آی</exp>
+  </expression>
+  <expression id="018" name="ide">
+    <exp>دستگاه های آی دی ای</exp>
+  </expression>
+  <expression id="019" name="scsi">
+    <exp>دستگاه های اس سی اس آی</exp>
+  </expression>
+  <expression id="020" name="usb">
+    <exp>دستگاه های یو اس بی</exp>
+  </expression>
+  <expression id="021" name="netusage">
+    <exp>میزان استفاده شبکه</exp>
+  </expression>
+  <expression id="022" name="device">
+    <exp>دستگاه</exp>
+  </expression>
+  <expression id="023" name="received">
+    <exp>دریافت شده</exp>
+  </expression>
+  <expression id="024" name="sent">
+    <exp>ارسال شده</exp>
+  </expression>
+  <expression id="025" name="errors">
+    <exp>خطا/گم شده</exp>
+  </expression>
+  <expression id="026" name="connections">
+    <exp>Established Network Connections</exp>
+  </expression>
+  <expression id="027" name="memusage">
+    <exp>میزان بارگزاری حافظه</exp>
+  </expression>
+  <expression id="028" name="phymem">
+    <exp>حافظه فیزیکی</exp>
+  </expression>
+  <expression id="029" name="swap">
+    <exp>حافظه سواپ</exp>
+  </expression>
+  <expression id="030" name="fs">
+    <exp>فایل سیستم های مونت شده</exp>
+  </expression>
+  <expression id="031" name="mount">
+    <exp>مونت پوینت</exp>
+  </expression>
+  <expression id="032" name="partition">
+    <exp>پارتیشن ها</exp>
+  </expression>
+  <expression id="033" name="percent">
+    <exp>استفاده شده</exp>
+  </expression>
+  <expression id="034" name="type">
+    <exp>نوع</exp>
+  </expression>
+  <expression id="035" name="free">
+    <exp>آزاد</exp>
+  </expression>
+  <expression id="036" name="used">
+    <exp>استفاده شده</exp>
+  </expression>
+  <expression id="037" name="size">
+    <exp>حجم</exp>
+  </expression>
+  <expression id="038" name="totals">
+    <exp>مقدار کل</exp>
+  </expression>
+  <expression id="039" name="kb">
+    <exp>کیلوبایت</exp>
+  </expression>
+  <expression id="040" name="mb">
+    <exp>مگابایت</exp>
+  </expression>
+  <expression id="041" name="gb">
+    <exp>گیگابایت</exp>
+  </expression>
+  <expression id="042" name="none">
+    <exp>خالی</exp>
+  </expression>
+  <expression id="043" name="capacity">
+    <exp>حجم</exp>
+  </expression>
+  <expression id="044" name="template">
+    <exp>قالب</exp>
+  </expression>
+  <expression id="045" name="language">
+    <exp>زبان</exp>
+  </expression>
+  <expression id="046" name="submit">
+    <exp>ارسال</exp>
+  </expression>
+  <expression id="047" name="created">
+    <exp>ایجاد شده توسط</exp>
+  </expression>
+  <expression id="048" name="days">
+    <exp>روزها</exp>
+  </expression>
+  <expression id="049" name="hours">
+    <exp>ساعت</exp>
+  </expression>
+  <expression id="050" name="minutes">
+    <exp>دقیقه</exp>
+  </expression>
+  <expression id="051" name="temperature">
+    <exp>حرارت</exp>
+  </expression>
+  <expression id="052" name="voltage">
+    <exp>ولتاژ</exp>
+  </expression>
+  <expression id="053" name="fans">
+    <exp>فن ها</exp>
+  </expression>
+  <expression id="054" name="s_value">
+    <exp>مقدار</exp>
+  </expression>
+  <expression id="055" name="s_min">
+    <exp>حداقل</exp>
+  </expression>
+  <expression id="056" name="s_max">
+    <exp>حداکثر</exp>
+  </expression>
+  <expression id="057" name="hysteresis">
+    <exp>Hysteresis</exp>
+  </expression>
+  <expression id="058" name="s_limit">
+    <exp>محدود</exp>
+  </expression>
+  <expression id="059" name="s_label">
+    <exp>برچسب</exp>
+  </expression>
+  <expression id="060" name="degreec">
+    <exp>سانتیگراد</exp>
+  </expression>
+  <expression id="061" name="degreef">
+    <exp>فارنهایت</exp>
+  </expression>
+  <expression id="062" name="voltage_mark">
+    <exp>ولت</exp>
+  </expression>
+  <expression id="063" name="rpm_mark">
+    <exp>دوردرثانیه</exp>
+  </expression>
+  <expression id="064" name="app">
+    <exp>هسته + نرم افزارها</exp>
+  </expression>
+  <expression id="065" name="buffers">
+    <exp>بافرها</exp>
+  </expression>
+  <expression id="066" name="cached">
+    <exp>کش شده</exp>
+  </expression>
+  <expression id="067" name="jumpto">
+    <exp>Jump to</exp>
+  </expression>
+  <expression id="068" name="ups_title">
+    <exp>اطلاعات یو پی اس</exp>
+  </expression>
+  <expression id="069" name="ups_name">
+    <exp>نام</exp>
+  </expression>
+  <expression id="070" name="ups_model">
+    <exp>مدل</exp>
+  </expression>
+  <expression id="071" name="ups_mode">
+    <exp>مد</exp>
+  </expression>
+  <expression id="072" name="ups_start_time">
+    <exp>شروع</exp>
+  </expression>
+  <expression id="073" name="ups_status">
+    <exp>وضعیت</exp>
+  </expression>
+  <expression id="074" name="ups_outages_count">
+    <exp>خروجی</exp>
+  </expression>
+  <expression id="075" name="ups_last_outage">
+    <exp>Last outage cause</exp>
+  </expression>
+  <expression id="076" name="ups_last_outage_finish">
+    <exp>Last outage timestamp</exp>
+  </expression>
+  <expression id="077" name="ups_line_voltage">
+    <exp>میزان ولتاژ</exp>
+  </expression>
+  <expression id="078" name="ups_load_percent">
+    <exp>درصد بارگزاری</exp>
+  </expression>
+  <expression id="079" name="ups_battery_voltage">
+    <exp>ولتاژ باتری</exp>
+  </expression>
+  <expression id="080" name="ups_battery_charge_percent">
+    <exp>شارژ باتری</exp>
+  </expression>
+  <expression id="081" name="ups_time_left_minutes">
+    <exp>Time left on batteries</exp>
+  </expression>
+  <expression id="082" name="ups_voltage_mark">
+    <exp>ولت</exp>
+  </expression>
+  <expression id="083" name="ups_minutes_mark">
+    <exp>دقیقه</exp>
+  </expression>
+  <expression id="084" name="ups_temperature">
+    <exp>حرارت</exp>
+  </expression>
+  <expression id="085" name="tb">
+    <exp>ترابایت</exp>
+  </expression>
+  <expression id="086" name="tib">
+    <exp>TiB</exp>
+  </expression>
+  <expression id="087" name="gib">
+    <exp>GiB</exp>
+  </expression>
+  <expression id="088" name="mib">
+    <exp>MiB</exp>
+  </expression>
+  <expression id="089" name="kib">
+    <exp>KiB</exp>
+  </expression>
+  <expression id="090" name="pib">
+    <exp>PiB</exp>
+  </expression>
+  <expression id="091" name="pb">
+    <exp>پتابایت</exp>
+  </expression>
+  <expression id="092" name="mhz">
+    <exp>MHz</exp>
+  </expression>
+  <expression id="093" name="ghz">
+    <exp>GHz</exp>
+  </expression>
+  <expression id="094" name="virtualization">
+    <exp>مجازی سازی</exp>
+  </expression>
+  <expression id="095" name="lastboot">
+    <exp>آخرین زمان بارگزاری</exp>
+  </expression>
+  <expression id="096" name="bytes">
+    <exp>بایت</exp>
+  </expression>
+</tns:translation>

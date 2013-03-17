@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:right;
+}
+.error{
+	color:red;
+}
+body{
+	background-color:#CCC;
+	padding:0px;
+	margin:0px;
+}
+#page_contents{
+	padding:20px;
+	color:#333;
+}
+#nav{
+	padding:20px;
+	background-color:#333;
+	color:#CCC;
+}
+#nav a{
+	padding-right:20px;
+}
+#nav a , #nav a:active {
+	color:#CCC;
+	text-decoration:none;
+	
+}
+#nav a:hover{
+	color:#999;
+}
+#footer{
+	
+	background-color:#333;
+	color:#CCC;
+	padding:40px 20px 40px 20px;
+	text-align:center;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	
+}
+.cleaner{
+margin-top:90px;}
+
+.module_icon{
+float:right;
+margin:20px;
+ 
+}
+.module_icon img{
+border:#999 solid thick;
+}
+
+.module_icon img:hover{
+border:#666 solid thick;
+}

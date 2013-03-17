@@ -1,0 +1,1 @@
+<tr><td colspan="2"><input type="submit" value="نصب این ماژول"/></td></tr></table></form>

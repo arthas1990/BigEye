@@ -1,0 +1,1 @@
+<tr><td>{property}:</td><td><input type="text" name="{property}" id="{property}" value="{value}" size="70" /> </td></tr>

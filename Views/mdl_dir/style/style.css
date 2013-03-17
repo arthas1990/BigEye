@@ -1,0 +1,17 @@
+.dir_list td{
+font-size:12px;
+padding:10px;
+cursor:pointer;
+}
+ 
+.dir_list tr{
+background-color:#bbb;
+}
+.dir_list tr:hover{
+
+background-color:#999;
+}
+.pointer{
+	padding-left:10px;
+	padding-right:30px;
+}
